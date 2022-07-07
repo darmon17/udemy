@@ -2,11 +2,11 @@ package main
 
 import "fmt"
 
-func GetFullName() (string, string, int) {
+func getFullName() (string, string, int) {
 	return "Heri", "Sudarmono", 23
 }
 
 func main() {
-	firstName, lastName, age := GetFullName()
+	firstName, lastName, age := getFullName()
 	fmt.Println(firstName, lastName, age)
 }
